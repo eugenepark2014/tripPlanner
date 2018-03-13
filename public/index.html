@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Trip Planner</title>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="./style.css"></link>
-    <script src="./bundle.js" defer></script>
-  </head>
-  <body>
-    <div id="map"></div>
-  </body>
+
+<head>
+  <title>Trip Planner</title>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="./style.css"></link>
+  <script src="./bundle.js" defer></script>
+
+</head>
+
+<body>
+
+
+  <div id="map"></div>
+  <header>
+      <nav>
+        <div class="nav-item">
+          <a href="#">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="#">Features</a>
+        </div>
+        <div class="nav-item">
+          <a href="#">Careers</a>
+        </div>
+      </nav>
+
+    </header>
+  <div id="list">
+    <div>
+      <h2>Hotels</h2>
+      <div class="dropdown">
+        <select>
+          <option value="sheraton">Sheraton</option>
+          <option value="airbnb">Airbnb</option>
+          <option value="inn">Inn</option>
+        </select>
+        <button> X </button>
+      </div>
+      <h2>Restaurants</h2>
+      <div class="dropdown">
+        <select>
+          <option value="mcD">McDonalds</option>
+          <option value="momofuku">momofuku</option>
+          <option value="shake">Shake Shack</option>
+        </select>
+        <button> X </button>
+      </div>
+      <h2>Things To Do</h2>
+      <div class="dropdown">
+        <select>
+          <option value="exist">Exist</option>
+          <option value="writeCss">Write Css</option>
+          <option value="giveUp">Give Up</option>
+        </select>
+        <button> X </button>
+      </div>
+    </div>
+  </div>
+  <div id="itinerary">
+
+  </div>
+</body>
+
 </html>

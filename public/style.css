@@ -9,6 +9,36 @@ body {
 }
 
 #map {
-  height: 80vh;
-  width: 80vw;
+  height: 92vh;
+  width: 100vw;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  justify-content: flex-end;
+  height: 2em;
+  width: 100vw;
+  background-color:green;
+}
+
+.nav-item a{
+
+  font-size: 1.5em;
+  margin-right: 25px;
+}
+
+#list{
+  position: fixed;
+  top: 2em;
+  right: 0px;
+  background-color: brown;
+}
+
+.dropdown{
+  display: flex;
+  flex-direction: row;
 }
